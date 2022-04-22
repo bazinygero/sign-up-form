@@ -1,0 +1,16 @@
+main {
+    max-height: 100vh;
+    display: flex;
+}
+
+#left-side {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-side, p {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
