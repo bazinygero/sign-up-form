@@ -1,16 +1,23 @@
 main {
-    max-height: 100vh;
     display: flex;
+    flex-flow: row;
+    width: 100vw;
+    height: 100vh;
 }
 
 #left-side {
+    background-image: url(/media/convertkit-n1m4Ftm2vs8-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     width: 40vw;
-    display: flex;
-    flex-direction: column;
+    max-height: 100vh;
 }
 
-#right-side, p {
+#logo-text > logo {
+    
+}
+
+#right-side {
     width: 60vw;
-    display: flex;
-    flex-direction: column;
 }
