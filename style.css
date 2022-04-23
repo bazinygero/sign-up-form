@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 main {
     display: flex;
     flex-flow: row;
@@ -7,17 +14,20 @@ main {
 
 #left-side {
     background-image: url(/media/convertkit-n1m4Ftm2vs8-unsplash.jpg);
-    background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
     max-height: 100vh;
 }
 
 #logo-text > logo {
+    display:flex;
     
 }
 
 #right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60vw;
 }
