@@ -2,10 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-main {
+main,
+.logo {
     display: flex;
     flex-flow: row;
     width: 100vw;
@@ -20,9 +21,8 @@ main {
     max-height: 100vh;
 }
 
-#logo-text > logo {
+#logo-text {
     display:flex;
-    
 }
 
 #right-side {
