@@ -14,16 +14,18 @@
     <main>
         <div id="left-side">
             <div class="logo">  
-                <img src="/media/odin-lined.png" alt="logo" />
+                <img src="/media/odin-lined.png" alt="logo" class="odin-logo"/>
                 <h1>Logo Text</h1>
             </div>
         </div>
         <div id="right-side">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Molestiae accusamus qui sed totam eius ad ex quibusdam sunt dicta, nostrum ut inventore et?</p>
-            <p>Sign up <em>now</em> to get started.</p>
+            <div class="filler-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Molestiae accusamus qui sed totam eius ad ex quibusdam sunt dicta, nostrum ut inventore et?</p>
+                <p class="filler-bottom-text">Sign up <em>now</em> to get started.</p>
+            </div>
                 <form>
-                    <p>Let's go!</p>
+                        <p class="form-title">Let's do this!</p>
                     
                     <div class="input">
                         <label for="first-name">First Name</label>
@@ -33,7 +35,7 @@
                         
                     <div class="input">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
 
                         
@@ -58,11 +60,12 @@
                         <label for="confirm-password">Confirm Password</label>
                         <input type="password" id="confirm-password" name="confirm-password" required>
                     </div>
-
+                </form>
                     <div class="form-button">
                         <button type="submit">Create Account</button>
                     </div>
-                </form>
+
+                    <div class="log-in left"><p>Already have an account?</p><a href="#">Log in</a></div>
         </div>
     </main>
 </body>
