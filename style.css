@@ -1,6 +1,6 @@
-:root{
-    --color: grey;
-    --txt: rgb(185, 185, 185)
+@font-face {
+    font-family: 'Norse';
+    src: url(./Norse-Bold.otf);
 }
 
 *{
@@ -30,11 +30,11 @@ main, .logo {
 
 .logo {
     height: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     position: relative;
     top: 20vh;
-    gap: 1vw;
-    padding: 15px 0;
+    gap: 2vw;
+    padding: 30px;
 
     justify-content: center;
     align-items: center;
@@ -42,11 +42,18 @@ main, .logo {
 }
 
 h1 {
+    font-family: 'Norse', sans-serif;
+    text-transform: uppercase;
     color: aliceblue;
+    font-size: 7rem;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .odin-logo {
-    height: 10vh;
+    height: 20vh;
 }
 
 #logo-text {
@@ -73,12 +80,12 @@ h1 {
 
 form {
     background-color: aliceblue;
-    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    box-shadow: 0 10px 10px -2px rgb(22, 22, 22, 0.3);
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-left: 3vw;
 }
 
@@ -99,13 +106,14 @@ form {
 
 input {
     background-color: antiquewhite;
-    border: 1px solid var(--color);
+    border: 1px solid grey;
     border-radius: 3px;
+    height: 2em;
 }
 
 input:focus {
     outline: none;
-    border: 2px solid var(--color);
+    border: 2px solid grey;
 }
 
 .form-button {
@@ -117,30 +125,32 @@ button {
     color: var(--color);
     font-weight: 700;
     font-size: 1.2em;
-    border: 2px solid var(--color);
+    border: 2px solid grey;
     border-radius: 5px;
     padding: 10px 40px;
     margin: 40px 0;
 }
 
 button:hover{
-    background-color: var(--color);
-    color: black
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 .log-in{
     display: flex;
-    gap: 5px;
+    align-items: center;
+    gap: 15px;
     padding-left: 3vw;
 }
 
 a{
     text-decoration: none;
-    color: var(--color);
+    color: grey;
     font-weight: 700;
 }
 
 a:hover{
-    color: grey;
+    color: black;
 }
 
