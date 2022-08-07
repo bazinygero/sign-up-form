@@ -21,7 +21,7 @@ main, .logo {
 }
 
 #left-side {
-    background-image: url(/media/convertkit-n1m4Ftm2vs8-unsplash.jpg);
+    background-image: url(./media/convertkit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
